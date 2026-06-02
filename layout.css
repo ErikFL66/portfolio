@@ -1,0 +1,24 @@
+.burger .line {
+  display: block;
+  width: 2rem;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  /* padding-right: 2rem; */
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+  border: none;
+  margin-right: 2rem;
+}
+
+.burger {
+  width: 30px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.navlogo {
+  cursor: grabbing;
+}
