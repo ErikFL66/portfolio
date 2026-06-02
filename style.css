@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  interpolate-size: allow-keywords;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: max(1em, 16px);
+}
+
+textarea {
+  resize: none;
+  min-height: 4lh;
+}
+
+legend {
+  padding: 0;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
+:root {
+  /* erfaringskort */
+
+  --kort-et: #f4f8ff;
+  --kort-to: #f8f2f7;
+  --kort-tre: #fcecee;
+  --kort-fire: #ffe6e6;
+  --kort-bg: #fffcf2;
+
+  /*color */
+  --off-white: #fffcf2;
+  --red: #ff0000;
+  --white: #ffffff;
+  --dark: #121212;
+  --light-blue: #f4f8ff;
+  --light-purple: #f8f2f7;
+  --light-orange: #fcecee;
+  --light-red: #ffe6e6;
+
+  /* Headlines (size)*/
+  --font-h1-size: 1rem;
+  --font-h2-size: 1rem;
+  --font-h3-size: 1rem;
+  /* Global menu */
+  --color-menu-bg: #121212;
+  /* Links */
+  --color-link-bg: #f48101;
+  --color-link: #feffed;
+  --color-link-hover-bg: #feffed;
+  --color-link-hover: #01449e;
+  --color-link-active-bg: #feffed;
+  --border-radius-links: 1px;
+  /* Tekst */
+  --color-text: light-dark (#000, #f3f3f3);
+  --color-text-link: #000;
+  --color-text-inverted: light-dark (#ffffff, #000);
+
+  /*  Margins */
+  --margin-block: 5px;
+
+  /* Fonts & font weights*/
+  --font-family-sans: ui-sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 300;
+  --font-weight-light: 200;
+}
+
+/****************************** FONTS **********************************/
+
+/* .zalando-sans-<uniquifier> {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* .jetbrains-mono-<uniquifier> {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+/************************************************************************/
