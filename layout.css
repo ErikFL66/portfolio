@@ -1,24 +1,120 @@
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
 .burger .line {
   display: block;
-  width: 2rem;
-  height: 4px;
+  width: 100%;
+  height: 2px;
   background-color: #ffffff;
   margin-bottom: 5px;
-  /* padding-right: 2rem; */
   transition: 0.2s linear;
 }
 .burger {
   display: none;
-  border: none;
-  margin-right: 2rem;
 }
 
-.burger {
-  width: 30px;
-  height: 15px;
+nav {
+  /* position: sticky; */
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-menu-bg);
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.logonav {
+  /* position: sticky;
+  top: 0;
+  left: 2; */
   cursor: pointer;
+  width: 4.3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
-.navlogo {
-  cursor: grabbing;
+main {
+  margin-inline: 2.7rem;
+}
+
+.h1index {
+  font-size: 3.5rem;
+  margin-inline: 2rem;
+  font-family: "Zalando Sans", sans-serif;
+}
+
+.migdrej {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 3px solid var(--dark);
+}
+
+.migtekst-index {
+  font-size: 2rem;
+  text-wrap: pretty;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.stickylogo {
+  position: sticky;
+}
+
+.tema1vid {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+/* mobil */
+
+@media screen and (max-width: 800px) {
+  nav {
+    justify-content: right;
+  }
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: var(--dark);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50%;
+    margin-left: 50%;
+    padding-block: 2rem;
+
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
 }
