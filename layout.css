@@ -67,9 +67,62 @@ main {
   margin-top: 8rem;
   margin-bottom: 2rem;
 }
+
+p {
+  font-family: var(--font-family-serif);
+}
+h2 {
+  font-family: var(--font-family-sans);
+}
+h3 {
+  font-family: var(--font-family-serif);
+}
+
+.index-h2 {
+  margin-bottom: 0.3rem;
+}
+
+.index-h3 {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.index-p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.indeximg {
+  border: 3px solid var(--dark);
+  margin-bottom: 2rem;
+}
+.topimg {
+  margin-top: 8rem;
+}
+.halvimg {
+  width: 50%;
+}
+
+.totopimg {
+  width: 6rem;
+}
+
+.totopstar {
+  margin-inline: 9rem;
+  margin-top: 4rem;
+}
+/* .index-button {
+  border: 3px solid var(--dark);
+  font-family: var(--font-family-sans);
+  font-weight: 500;
+  padding: 1rem;
+  padding-inline: 3rem;
+} */
+
 /* mobil */
 
 @media screen and (max-width: 800px) {
+  /*************** Burger menu og nav *******************/
+
   nav {
     justify-content: right;
   }
@@ -116,5 +169,41 @@ main {
 
   nav.active .menu a {
     font-size: 24px;
+  }
+
+  .menu-p {
+    font-family: var(--font-family-sans);
+    color: var(--off-white);
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .menustaractive {
+    display: none;
+  }
+  .logonav {
+    position: sticky;
+    top: 0;
+  }
+
+  .menustar {
+    width: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .menu-grid {
+    display: flex;
+  }
+  /************* Mobil button ******************/
+
+  .index-button {
+    border: 3px solid var(--dark);
+    font-family: var(--font-family-sans);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+    padding-inline: 3rem;
+    margin-bottom: 2rem;
   }
 }
