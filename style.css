@@ -100,7 +100,8 @@ select,
   --margin-block: 5px;
 
   /* Fonts & font weights*/
-  --font-family-sans: ui-sans-serif;
+  --font-family-sans: "Zalando Sans", sans-serif;
+  --font-family-serif: "JetBrains Mono", monospace;
   --font-weight-bold: 700;
   --font-weight-medium: 500;
   --font-weight-regular: 300;
