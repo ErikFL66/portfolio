@@ -120,3 +120,67 @@ function lilink() {
   console.log("lilink");
   location.href = "https://www.linkedin.com/in/erik-fjord-lyngstadaas-26919a3b1";
 }
+const migdrej = document.querySelector(".migdrej");
+const migdrejimgsrc = document.querySelector(".migdrejimgsrc");
+
+// Mig drej stop og start
+
+migdrej.addEventListener("mousedown", migfanget);
+migdrej.style.cursor = "grab";
+
+function migfanget() {
+  console.log("migfanget");
+  migdrejimgsrc.src = "images/migdrej_5.jpg";
+}
+
+migdrej.addEventListener("mouseup", migsluppet);
+
+function migsluppet() {
+  console.log("migsluppet");
+  migdrejimgsrc.src = "images/mig-drej-gif.gif";
+}
+
+// Knapper
+
+const btnstyle1 = document.querySelector(".btn1");
+const btnstyle2 = document.querySelector(".btn2");
+const btnstyle3 = document.querySelector(".btn3");
+const btnstyle4 = document.querySelector(".btn4");
+const btnstyle5 = document.querySelector(".btn5");
+btnstyle1.style.cursor = "pointer";
+btnstyle2.style.cursor = "pointer";
+btnstyle3.style.cursor = "pointer";
+btnstyle4.style.cursor = "pointer";
+btnstyle5.style.cursor = "pointer";
+
+btnstyle1.addEventListener("click", tema1);
+
+function tema1() {
+  console.log("tema1");
+  location.href = "tema1.html";
+}
+
+btnstyle2.addEventListener("click", tema2);
+
+function tema2() {
+  console.log("tema2");
+  location.href = "tema2.html";
+}
+btnstyle3.addEventListener("click", tema3);
+
+function tema3() {
+  console.log("tema3");
+  location.href = "tema3.html";
+}
+btnstyle4.addEventListener("click", tema4);
+
+function tema4() {
+  console.log("tema4");
+  location.href = "tema4.html";
+}
+btnstyle5.addEventListener("click", tema5);
+
+function tema5() {
+  console.log("tema5");
+  location.href = "tema5.html";
+}

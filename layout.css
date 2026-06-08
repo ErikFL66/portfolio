@@ -307,9 +307,17 @@ footer {
   padding: 1rem;
 }
 
+.arrowrighttema1 {
+  margin-left: 21rem;
+}
+
 .arrowcontainer {
   display: flex;
   justify-content: space-between;
+}
+
+.arrowcontainer :hover {
+  cursor: pointer;
 }
 
 .temaheroimg {
