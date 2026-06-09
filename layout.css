@@ -663,6 +663,40 @@ nav {
   .footermail {
     margin-bottom: -4rem;
   }
+
+  /************* om mig **************/
+  .stack-card {
+    margin-inline: 18rem;
+  }
+
+  .erfaringtekst {
+    margin-left: 15rem;
+  }
+  .kompentencelist {
+    margin-inline: 10rem;
+  }
+
+  .lispacerweb {
+    margin-right: 18rem;
+  }
+
+  .bigpaper {
+    margin-inline: 10rem;
+  }
+  .textommig {
+    margin-inline: 5rem;
+  }
+  .clip {
+    width: 15rem;
+    margin-inline: 28rem;
+    margin-bottom: -5rem;
+    margin-top: -4rem;
+    z-index: 2;
+  }
+
+  .nameandcontact {
+    margin-left: 5rem;
+  }
 }
 /* mobil */
 
