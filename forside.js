@@ -128,14 +128,57 @@ migdrej.style.cursor = "grab";
 
 function migfanget() {
   console.log("migfanget");
-  migdrejimgsrc.src = "images/migdrej_5.jpg";
+  migdrej.style.cursor = "grabbing";
+  migdrejimgsrc.src = "images/migdrej_5.webp";
 }
 
 migdrej.addEventListener("mouseup", migsluppet);
 
 function migsluppet() {
   console.log("migsluppet");
+  migdrej.style.cursor = "grab";
   migdrejimgsrc.src = "images/mig-drej-gif.gif";
 }
 
-// text animation
+// index knapper link
+
+const btn1 = document.querySelector(".btn1");
+const btn2 = document.querySelector(".btn2");
+const btn3 = document.querySelector(".btn3");
+const btn4 = document.querySelector(".btn4");
+const btn5 = document.querySelector(".btn5");
+
+btn1.addEventListener("click", btn1link);
+
+function btn1link() {
+  console.log("btn1link");
+  location.href = "tema1.html";
+}
+
+btn2.addEventListener("click", btn2link);
+
+function btn2link() {
+  console.log("btn2link");
+  location.href = "tema2.html";
+}
+
+btn3.addEventListener("click", btn3link);
+
+function btn3link() {
+  console.log("btn3link");
+  location.href = "tema3.html";
+}
+
+btn4.addEventListener("click", btn4link);
+
+function btn4link() {
+  console.log("btn4link");
+  location.href = "tema4.html";
+}
+
+btn5.addEventListener("click", btn5link);
+
+function btn5link() {
+  console.log("btn5link");
+  location.href = "tema5.html";
+}

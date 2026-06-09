@@ -19,7 +19,8 @@ function tiltema4() {
 }
 
 // Færdigt projekt knap
-
+const heroimg = document.querySelector(".temaheroimg");
+heroimg.addEventListener("click", tilsite);
 prbtn.addEventListener("click", tilsite);
 
 function tilsite() {

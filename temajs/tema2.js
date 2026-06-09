@@ -1,6 +1,7 @@
 const left = document.querySelector(".arrowleft");
 const right = document.querySelector(".arrowright");
 const prbtn = document.querySelector(".projekt-button");
+const heroimg = document.querySelector(".temaheroimg");
 
 // Tema knapper
 
@@ -21,7 +22,7 @@ function tiltema3() {
 // Færdigt projekt knap
 
 prbtn.addEventListener("click", tilsite);
-
+heroimg.addEventListener("click", tilsite);
 function tilsite() {
   console.log("tilsite");
   location.href = "https://erikfl66.github.io/website/index.html";
