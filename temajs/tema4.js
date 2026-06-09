@@ -1,5 +1,6 @@
 const left = document.querySelector(".arrowleft");
 const right = document.querySelector(".arrowright");
+const prbtn = document.querySelector(".projekt-button");
 
 // Tema knapper
 
@@ -15,4 +16,13 @@ right.addEventListener("click", tiltema5);
 function tiltema5() {
   console.log("tiltema5");
   location.href = "tema5.html";
+}
+
+// Færdigt projekt knap
+
+prbtn.addEventListener("click", tilsite);
+
+function tilsite() {
+  console.log("tilsite");
+  location.href = "https://erikfl66.github.io/emergency_2/";
 }

@@ -1,5 +1,6 @@
 const left = document.querySelector(".arrowleft");
 const right = document.querySelector(".arrowright");
+const prbtn = document.querySelector(".projekt-button");
 
 // Tema knapper
 
@@ -15,4 +16,13 @@ right.addEventListener("click", tiltema4);
 function tiltema4() {
   console.log("tiltema4");
   location.href = "tema4.html";
+}
+
+// Færdigt projekt knap
+
+prbtn.addEventListener("click", tilsite);
+
+function tilsite() {
+  console.log("tilsite");
+  location.href = "https://erikfl66.github.io/tenderyouth/index.html";
 }

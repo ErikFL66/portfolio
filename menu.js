@@ -6,8 +6,6 @@ const starprojekt = document.querySelector(".starprojekt");
 const menuommig = document.querySelector(".menuommig");
 const starom = document.querySelector(".starom");
 const totop = document.querySelector(".totopimg");
-const migdrej = document.querySelector(".migdrej");
-const migdrejimgsrc = document.querySelector(".migdrejimgsrc");
 const logonav = document.querySelector(".logonav");
 
 // burger
